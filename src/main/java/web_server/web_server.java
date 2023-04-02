@@ -36,6 +36,8 @@ public class web_server {
                     output.println();
                     output.println("<p>Привет всем!</p>");
 
+
+
                     //по окончании выполнения блока try-with-resourses потоки, а вместе с ними и соединение будут закрыты
                     System.out.println("Client disconnected.");
                 }
